@@ -56,6 +56,9 @@ import {INSTAPOOL_C} from './INSTAPOOL-C'
 import {WAVAX_A} from './WAVAX-A'
 import {WMATIC_A} from './WMATIC-A'
 import {QUICKSWAP_A} from './QUICKSWAP-A'
+
+import {UBIQUITY_A} from './UBIQUITY-A'
+
 export const connectorsV2_M1 =  {
     "QUICKSWAP-A": QUICKSWAP_A,
     "INSTAPOOL-C": INSTAPOOL_C,
@@ -111,5 +114,6 @@ export const connectorsV2_M1 =  {
     "INTEROP-A": INTEROP_A,
     "INTEROP-STAGING-A": INTEROP_STAGING_A,
     "WMATIC-A": WMATIC_A,
-    "WAVAX-A": WAVAX_A
+    "WAVAX-A": WAVAX_A,
+    "UBIQUITY-A": UBIQUITY_A
 }
